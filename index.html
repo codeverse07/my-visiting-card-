@@ -24,6 +24,7 @@ body:after{width:390px;height:390px;border:1px solid rgba(0,200,255,.18);border-
 .rule{height:2px;width:min(270px,80%);margin:18px auto 0;background:linear-gradient(90deg,transparent,var(--green),#d6fff2,var(--cyan),transparent);box-shadow:0 0 12px rgba(0,255,172,.6)}
 .profile{padding:24px 22px 4px;text-align:center}
 .avatar{width:104px;height:104px;margin:0 auto 14px;display:grid;place-items:center;border-radius:50%;font-size:36px;font-weight:800;letter-spacing:-2px;color:#fff;background:radial-gradient(circle at 32% 24%,#193a3e,#07131c 68%);border:2px solid transparent;background-clip:padding-box;box-shadow:0 0 0 2px var(--green),0 0 0 5px rgba(0,200,255,.8),0 0 30px rgba(0,221,185,.25)}
+.avatar img{width:100%;height:100%;display:block;object-fit:cover;object-position:center;border-radius:50%}
 h1{margin:0;font-size:clamp(25px,6vw,34px);line-height:1.16;letter-spacing:-.04em}
 .role{margin:8px 0 0;color:var(--green);font-size:16px;font-weight:750;letter-spacing:.02em}
 .links{display:grid;gap:11px;padding:22px 22px 10px}
@@ -62,7 +63,7 @@ h1{margin:0;font-size:clamp(25px,6vw,34px);line-height:1.16;letter-spacing:-.04e
   </header>
 
   <section class="profile" aria-label="Profile">
-    <div class="avatar" aria-hidden="true">SJ</div>
+    <div class="avatar"><img src="img.png" alt="Sachin Kumar Jha"></div>
     <h1>Sachin Kumar Jha</h1>
     <p class="role">Software Developer</p>
   </section>
